@@ -26,22 +26,6 @@ for list in listen:
             event.append(card[0])
     all_events.append(event)
 
-#get all cards with some kinde of label, in the current session only the places are labeled
-#orte = []
-#orte_2 = []
-#string = "5d80cba6af988c41f2a84190"
-#for karte in obj['cards']:
-    #if string in karte['idLabels']:
-    #   orte.append((karte['name'], karte['idList']))
-#    if karte['idLabels']:
-#       orte_2.append((karte['name'], karte['idList']))
-
-#new_list = []
-#for ort in orte_2:
-#    for list in listen:
-#        if ort[1] == list[1]:
-#            new_list.append([list[0], ort[0]])
-
 print(all_events)
 
 csvfile =  open(str(sys.argv[2]), 'w', newline="")

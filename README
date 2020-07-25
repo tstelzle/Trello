@@ -1,5 +1,0 @@
-Simple python program to look up cards in Trello by label and write the name of the list and the card with the label to a csv table.
-
-First Argument: JSON File exported from Trello
-
-Second Argument: the empty .csv file where the data should be stored
