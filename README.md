@@ -24,8 +24,8 @@ python trello_1.py <input.json> <output.csv>
 or 
 
 ```Shellscript
-python trello_2.py <input.json> <output.json>
+python trello_2.py <input.json> <output.csv>
 ```
 
-Where <input.json> and <output.json> correspond to the arguments mentioned above.
+Where <input.json> and <output.csv> correspond to the arguments mentioned above.
 
